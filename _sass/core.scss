@@ -1,12 +1,12 @@
 html,
 body {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1440px;
   font-family: $body-font-family;
   color: $high-emphasis;
   background: $backgroud;
 }
 
 body {
-  padding: 34px 64px 28px 64px;
+  padding: nth($spaces, 9) nth($spaces, 16) nth($spaces, 7) nth($spaces, 16);
 }

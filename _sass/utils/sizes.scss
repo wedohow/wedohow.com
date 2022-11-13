@@ -1,0 +1,61 @@
+$spacer: 4px;
+$spaces: ();
+
+@function space($number) {
+  @return $spacer * $number;
+}
+
+@function typeName($type) {
+  @if $type == m {
+    @return "margin";
+  } @else if $type == p {
+    @return "padding";
+  } @else {
+    @error "Unknown type #{$type}.";
+  }
+}
+
+@function spacingRules($type, $side) {
+  $typeName: typeName($type);
+}
+
+$types: m, p;
+$sides: t, b, s, e, x, y;
+
+@for $i from 1 through 20 {
+  $spaces: append($spaces, space($i));
+}
+
+@each $type in $types {
+  $typeName: typeName($type);
+
+  @for $i from 1 through 20 {
+    $space: nth($spaces, $i);
+
+    .#{$type}-#{$i} {
+      #{$typeName}: $space;
+    }
+
+    @each $side in $sides {
+      .#{$type}#{$side}-#{$i} {
+        @if ($side == t) {
+          #{$typeName}-top: $space;
+        } @else if ($side == b) {
+          #{$typeName}-bottom: $space;
+        } @else if ($side == s) {
+          #{$typeName}-left: $space;
+        } @else if ($side == e) {
+          #{$typeName}-right: $space;
+        } @else if ($side == x) {
+          #{$typeName}-left: $space;
+          #{$typeName}-right: $space;
+        } @else if ($side == y) {
+          #{$typeName}-top: $space;
+          #{$typeName}-bottom: $space;
+        } @else {
+          @error "Unknown side #{$side}.";
+        }
+      }
+    }
+  }
+}
