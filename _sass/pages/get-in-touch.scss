@@ -1,0 +1,15 @@
+#page-get-in-touch {
+  main {
+    background: #b1efca;
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 500px;
+      font-size: nth($spaces, 7);
+      font-weight: 600;
+    }
+  }
+}
