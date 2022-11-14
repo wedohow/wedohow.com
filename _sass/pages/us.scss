@@ -11,6 +11,7 @@
 }
 
 .members-container {
+  @extend .my-14;
   display: flex;
   flex-direction: column;
 }
