@@ -1,0 +1,30 @@
+.hr-header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: nth($spaces, 4);
+
+  .hr-left {
+    width: calc(400px - 16px);
+    height: 100%;
+    background: black;
+  }
+
+  .hr-right {
+    width: calc(100% - 400px - 16px);
+    height: 100%;
+    background: black;
+  }
+
+  .hr-corner {
+    width: nth($spaces, 4);
+    height: nth($spaces, 4);
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+    background: black;
+  }
+}
+
+.hr-rotate {
+  transform: rotate(180deg);
+}

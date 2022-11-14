@@ -3,10 +3,16 @@ body {
   margin: 0 auto;
   max-width: 1440px;
   font-family: $body-font-family;
+  font-size: nth($spaces, 4);
+  font-weight: 400;
   color: $high-emphasis;
   background: $backgroud;
 }
 
 body {
   padding: nth($spaces, 9) nth($spaces, 16) nth($spaces, 7) nth($spaces, 16);
+}
+
+strong {
+  font-weight: 600;
 }

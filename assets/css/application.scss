@@ -6,3 +6,7 @@
 @import "core";
 @import "components";
 @import "pages";
+
+body {
+  display: grid;
+}
