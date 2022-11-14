@@ -1,0 +1,32 @@
+#page-us {
+  main {
+    background: #f69b5a;
+
+    .content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}
+
+.members-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.member {
+  @extend .mb-7;
+  width: 360px;
+  height: auto;
+}
+
+.member-title {
+  font-size: nth($spaces, 7);
+  font-weight: 700;
+}
+
+.member-text {
+  @extend .mt-4;
+  font-size: nth($spaces, 4);
+}
