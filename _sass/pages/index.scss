@@ -1,0 +1,39 @@
+#page-index {
+  main {
+    background: #75bafb;
+
+    .content {
+      @extend .p-20;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .we-do {
+    @extend .mb-10;
+    text-align: center;
+  }
+
+  .we-do-title {
+    @extend .mb-4;
+    font-size: nth($spaces, 10);
+  }
+
+  .we-do-subtitle {
+    font-size: nth($spaces, 5);
+  }
+
+  .we-do-how {
+    margin-bottom: 24 * $spacer;
+
+    .we-do-title {
+      font-size: nth($spaces, 14);
+    }
+
+    strong {
+      @extend .p-2;
+      background: #c4f0fe;
+      border: 1px solid #4a4a4a;
+    }
+  }
+}

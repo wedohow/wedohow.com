@@ -1,0 +1,65 @@
+header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+
+  .logo {
+    display: block;
+    width: $spacer * 100;
+
+    .link {
+      display: flex;
+
+      align-items: center;
+      font-size: nth($spaces, 4);
+    }
+  }
+
+  .logo-icon {
+    display: block;
+    width: 100%;
+    color: transparent;
+    font-size: 0;
+    height: 159px;
+    background: url(/assets/images/logo.svg) no-repeat 0 0/100%;
+  }
+
+  .logo-arrow {
+    display: block;
+    color: transparent;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    background: url(/assets/images/up-arrow.svg) no-repeat 0 0/100%;
+  }
+
+  nav {
+    @extend .mb-5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .link {
+      @extend .mx-11;
+      font-size: nth($spaces, 5);
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-separator {
+    font-size: nth($spaces, 14);
+  }
+
+  .get-in-touch {
+    @extend .ms-20;
+    padding: nth($spaces, 3) nth($spaces, 9);
+    color: $neutral-100;
+    background: $neutral-15;
+    border-radius: 30px;
+  }
+}

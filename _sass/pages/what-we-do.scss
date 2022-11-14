@@ -1,0 +1,63 @@
+#page-what-we-do {
+  main {
+    background: #a1b0fd;
+
+    .content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
+  .what-we-do {
+    display: flex;
+    flex-direction: column;
+    max-width: 792px;
+    margin: 140px auto;
+  }
+
+  .brief {
+    width: 100%;
+    text-align: left;
+  }
+
+  .brief-title {
+    font-size: nth($spaces, 5);
+    font-weight: 600;
+    color: $neutral-100;
+    text-transform: uppercase;
+  }
+
+  .brief-text {
+    font-size: nth($spaces, 11);
+    font-weight: 700;
+  }
+
+  .services-container {
+    display: grid;
+    width: 100%;
+    gap: 72px 56px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service {
+    width: 360px;
+    height: auto;
+  }
+
+  .service-title {
+    font-size: nth($spaces, 7);
+    font-weight: 700;
+  }
+
+  .service-text {
+    @extend .mt-4;
+    font-size: nth($spaces, 4);
+  }
+
+  .interested {
+    @extend .mt-10;
+    font-size: nth($spaces, 5);
+    font-weight: 600;
+  }
+}

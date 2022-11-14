@@ -2,17 +2,27 @@
 <html lang="en">
   <head>
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
+    href="href="https://fonts.googleapis.com/css?family=Poppins:wght@400;600;700"
+    rel="stylesheet" />
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/application.css" />
   </head>
-  <body>
+  <body {% if page.body_class %} id="page-{{page.body_class}}" {% endif %}>
     {% include header.html %}
 
-    <main>{{ content }}</main>
+    <div class="hr-header hr-rotate">
+      <div class="hr-right"></div>
+      <div class="hr-corner"></div>
+    </div>
+
+    <main>
+      <div class="hr-header">
+        <div class="hr-left"></div>
+        <div class="hr-corner"></div>
+      </div>
+      <div class="content">{{ content }}</div>
+    </main>
 
     {% include footer.html %}
   </body>
