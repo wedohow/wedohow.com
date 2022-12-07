@@ -1,0 +1,21 @@
+$breakpoints: (
+  extra-small: 440px,
+  small: 441px,
+  medium: 985px,
+  large: 1360px,
+  extra-large: 1440px,
+);
+
+@mixin media($keys...) {
+  @each $key in $keys {
+    @if $key == extra-small {
+      @media (max-width: map-get($breakpoints, $key)) {
+        @content;
+      }
+    } @else {
+      @media (min-width: map-get($breakpoints, $key)) {
+        @content;
+      }
+    }
+  }
+}
