@@ -3,25 +3,51 @@ header {
   align-items: end;
   justify-content: space-between;
 
+  @include media("extra-small", "small") {
+    padding: nth($spaces, 2) nth($spaces, 8) 0px nth($spaces, 6);
+  }
+
+  @include media("medium") {
+    padding: 0px nth($spaces, 10) 0px nth($spaces, 8);
+  }
+
+  @include media("large") {
+    padding: 0px;
+  }
+
   .logo {
     display: block;
-    width: $spacer * 100;
+
+    @include media("extra-small") {
+      width: $spacer * 46;
+    }
+
+    @include media("small") {
+      width: $spacer * 56;
+    }
+
+    @include media("medium") {
+      width: $spacer * 70;
+    }
+
+    @include media("large") {
+      width: $spacer * 90;
+    }
+
+    @include media("extra-large") {
+      width: $spacer * 100;
+    }
 
     .link {
       display: flex;
-
       align-items: center;
-      font-size: nth($spaces, 4);
     }
   }
 
-  .logo-icon {
+  .logo-icon img {
     display: block;
     width: 100%;
-    color: transparent;
-    font-size: 0;
-    height: 159px;
-    background: url(/assets/images/logo.svg) no-repeat 0 0/100%;
+    height: 100%;
   }
 
   .logo-arrow {
@@ -33,26 +59,139 @@ header {
     background: url(/assets/images/up-arrow.svg) no-repeat 0 0/100%;
   }
 
+  &.active {
+    nav {
+      opacity: 1;
+    }
+  }
+
   nav {
-    @extend .mb-5;
     display: flex;
     justify-content: center;
-    align-items: center;
+    background: $background;
+    z-index: 10;
+    padding: inherit;
+
+    @include media("extra-small", "small") {
+      opacity: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 117px;
+      height: auto;
+      flex-direction: column;
+      align-items: start;
+    }
+
+    @include media("extra-small") {
+      top: 100px;
+    }
+
+    @include media("small") {
+      top: 117px;
+    }
+
+    @include media("medium") {
+      position: static;
+      margin-bottom: nth($spaces, 4);
+      flex-direction: row;
+      align-items: center;
+      width: auto;
+      height: auto;
+      opacity: 1;
+    }
 
     .link {
-      @extend .mx-11;
       font-size: nth($spaces, 5);
+
+      @include media("medium") {
+        margin: 0 nth($spaces, 11) 0 nth($spaces, 11);
+      }
     }
   }
 
   ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: nth($spaces, 5);
+
+    @include media("extra-small", "small") {
+      li {
+        margin-top: nth($spaces, 10);
+      }
+    }
+
+    @include media("medium") {
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin-top: 0;
+      }
+    }
+
+    @include media("extra-small", "small") {
+      flex-direction: column;
+
+      .link-separator {
+        display: none;
+      }
+    }
+
+    @include media("medium") {
+      flex-direction: row;
+
+      .link-separator {
+        display: block;
+        font-size: nth($spaces, 14);
+      }
+    }
   }
 
-  .link-separator {
-    font-size: nth($spaces, 14);
+  .hamb {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: nth($spaces, 2);
+    margin: nth($spaces, 2) nth($spaces, 8) 0px 0px;
+
+    @include media("extra-small", "small") {
+      right: 0;
+      top: 0;
+    }
+
+    @include media("extra-small") {
+      width: nth($spaces, 12);
+      height: nth($spaces, 6);
+    }
+
+    @include media("small") {
+      width: nth($spaces, 14);
+      height: nth($spaces, 8);
+    }
+
+    @include media("medium") {
+      display: none;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+      height: 2px;
+      background-color: $neutral-20;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+
+    &.change {
+      .bar1 {
+        transform: translate(0, 11px) rotate(-45deg);
+      }
+
+      .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+      }
+    }
   }
 
   .get-in-touch {
@@ -61,5 +200,13 @@ header {
     color: $neutral-100;
     background: $neutral-15;
     border-radius: 30px;
+
+    @include media("extra-small", "small") {
+      margin: nth($spaces, 10) 0 nth($spaces, 14) 0;
+    }
+
+    @include media("medium") {
+      margin: 0;
+    }
   }
 }
