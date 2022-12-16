@@ -12,13 +12,41 @@
   .what-we-do {
     display: flex;
     flex-direction: column;
-    max-width: 792px;
-    margin: 140px auto;
   }
 
   .brief {
     width: 100%;
     text-align: left;
+
+    @include media("extra-small") {
+      margin-bottom: nth($spaces, 10);
+
+      h1 {
+        font-size: nth($spaces, 7);
+      }
+    }
+
+    @include media("small") {
+      margin-bottom: nth($spaces, 10);
+
+      h1 {
+        font-size: nth($spaces, 8);
+      }
+    }
+
+    @include media("medium") {
+      margin-bottom: nth($spaces, 20);
+
+      h1 {
+        font-size: nth($spaces, 9);
+      }
+    }
+
+    @include media("large") {
+      h1 {
+        font-size: nth($spaces, 11);
+      }
+    }
   }
 
   .brief-title {
@@ -26,33 +54,6 @@
     font-weight: 600;
     color: $neutral-100;
     text-transform: uppercase;
-  }
-
-  .brief-text {
-    font-size: nth($spaces, 11);
-    font-weight: 700;
-  }
-
-  .services-container {
-    display: grid;
-    width: 100%;
-    gap: 72px 56px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .service {
-    width: 360px;
-    height: auto;
-  }
-
-  .service-title {
-    font-size: nth($spaces, 7);
-    font-weight: 700;
-  }
-
-  .service-text {
-    @extend .mt-4;
-    font-size: nth($spaces, 4);
   }
 
   .interested {

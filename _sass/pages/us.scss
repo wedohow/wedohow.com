@@ -9,25 +9,3 @@
     }
   }
 }
-
-.members-container {
-  @extend .my-14;
-  display: flex;
-  flex-direction: column;
-}
-
-.member {
-  @extend .mb-7;
-  width: 360px;
-  height: auto;
-}
-
-.member-title {
-  font-size: nth($spaces, 7);
-  font-weight: 700;
-}
-
-.member-text {
-  @extend .mt-4;
-  font-size: nth($spaces, 4);
-}
