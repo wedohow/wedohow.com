@@ -1,4 +1,16 @@
 footer {
   @extend .my-6;
   text-align: right;
+
+  @include media("extra-small", "small") {
+    padding: nth($spaces, 2) nth($spaces, 8) 0px nth($spaces, 6);
+  }
+
+  @include media("medium") {
+    padding: 0px nth($spaces, 10) 0px nth($spaces, 8);
+  }
+
+  @include media("large") {
+    padding: 0px;
+  }
 }
