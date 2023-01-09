@@ -8,9 +8,15 @@ p,
 ul,
 ol {
   margin: 0;
+  padding: 0;
 }
 
 a {
   color: inherit;
   text-decoration: inherit;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
 }

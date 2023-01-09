@@ -1,18 +1,79 @@
 html,
 body {
   margin: 0 auto;
-  max-width: 1440px;
   font-family: $body-font-family;
-  font-size: nth($spaces, 4);
   font-weight: 400;
   color: $high-emphasis;
-  background: $backgroud;
+  background: $background;
+
+  @include media("extra-small") {
+    font-size: nth($spaces, 3);
+  }
+
+  @include media("small") {
+    font-size: nth($spaces, 3) + 2;
+  }
+
+  @include media("large") {
+    font-size: nth($spaces, 4);
+  }
 }
 
 body {
-  padding: nth($spaces, 9) nth($spaces, 16) nth($spaces, 7) nth($spaces, 16);
+  @include media("large") {
+    padding: nth($spaces, 9) nth($spaces, 14) nth($spaces, 7) nth($spaces, 14);
+  }
+
+  @include media("extra-large") {
+    padding: nth($spaces, 9) nth($spaces, 16) nth($spaces, 7) nth($spaces, 16);
+  }
 }
 
 strong {
   font-weight: 600;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h3,
+h4 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+main {
+  .content {
+    @include media("extra-small") {
+      max-width: 295px;
+      margin: 68px auto;
+    }
+
+    @include media("small") {
+      width: 383px;
+      margin: 104px auto;
+    }
+
+    @include media("medium") {
+      width: 792px;
+      margin: 140px auto;
+    }
+  }
 }

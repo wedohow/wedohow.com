@@ -4,7 +4,7 @@
       hands on works <span class="logo-arrow ms-3">r</span>
     </a>
 
-    <a class="logo-icon mt-4" href="/">Hands On Works</a>
+    <a class="logo-icon mt-4" href="/"><img src="/assets/images/logo.svg" /></a>
   </div>
 
   <nav>
@@ -18,4 +18,15 @@
       <a href="/get-in-touch">Get in touch</a>
     </div>
   </nav>
+
+  <button class="hamb" onclick="toggleMenu(this)">
+    <div class="bar1"></div>
+    <div class="bar3"></div>
+  </button>
 </header>
+
+<script>
+  function toggleMenu(btn) {
+    btn.parentNode.classList.toggle("active");
+  }
+</script>

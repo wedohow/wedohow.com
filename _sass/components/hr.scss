@@ -1,3 +1,9 @@
+$hr-width-extra-small: $spacer * 52;
+$hr-width-small: $spacer * 62;
+$hr-width-medium: $spacer * 78;
+$hr-width-large: $spacer * 90;
+$hr-width-extra-large: $spacer * 100;
+
 .hr-header {
   display: flex;
   padding: 0;
@@ -6,13 +12,51 @@
   height: nth($spaces, 4);
 
   .hr-left {
-    width: calc(400px - 16px);
     height: 100%;
     background: black;
+
+    @include media("extra-small") {
+      width: $hr-width-extra-small - 16;
+    }
+
+    @include media("small") {
+      width: $hr-width-small - 16;
+    }
+
+    @include media("medium") {
+      width: $hr-width-medium - 16;
+    }
+
+    @include media("large") {
+      width: $hr-width-large - 16;
+    }
+
+    @include media("extra-large") {
+      width: $hr-width-extra-large - 16;
+    }
   }
 
   .hr-right {
-    width: calc(100% - 400px - 16px);
+    @include media("extra-small") {
+      width: calc(100% - #{$hr-width-extra-small} - 16px);
+    }
+
+    @include media("small") {
+      width: calc(100% - #{$hr-width-small} - 16px);
+    }
+
+    @include media("medium") {
+      width: calc(100% - #{$hr-width-medium} - 16px);
+    }
+
+    @include media("large") {
+      width: calc(100% - #{$hr-width-large} - 16px);
+    }
+
+    @include media("extra-large") {
+      width: calc(100% - #{$hr-width-extra-large} - 16px);
+    }
+
     height: 100%;
     background: black;
   }
