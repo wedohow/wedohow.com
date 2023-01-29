@@ -1,0 +1,53 @@
+---
+layout: default
+header_image: "/assets/images/banner_07.jpg"
+pagination:
+  enabled: true
+title: "Blog"
+permalink: "/blog/"
+---
+
+{% include page_header.html %}
+
+<div class="blog-default section-ptb">
+    <div class="container">
+        <div class="row">
+            <!-- Blogs -->
+            <div class="col-lg-8">
+                <div class="blogs-wrapper">
+                    {% for post in paginator.posts %}
+                    <article class="mb-5">
+                        {% if post.post_image %}
+                        <div class="image">
+                            <a href="{{post.url}}"><img src="{{post.post_image}}" alt="{{post.title}}" class="feature img-fluid"/></a>
+                        </div>
+                        {% endif %}
+                        <div class="content">
+                            <div class="row">
+                                {% if post.date %}
+                                <div class="col">
+                                    <span class="date"><i class="lni lni-calendar"></i> {{post.date | date_to_long_string}}</span>
+                                </div>
+                                {% endif %}
+                                <div class="col">
+                                    <span class="comment float-right"><i class="lni lni-bubble"></i> <a href="{{post.url}}#disqus_thread" data-disqus-identifier="{{post.url}}"> 0 Comment</a></span>
+                                </div>
+                            </div>
+                            <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                            <p>{{post.excerpt | strip_html | truncatewords: "30"}}</p>
+                            <a href="{{post.url}}" class="btn dark">Read More</a>
+                        </div>
+                    </article>
+                    {% endfor %}
+                    {% include pagination.html %}
+                </div>
+            </div>
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                {% include sidebar.html %}
+            </div>
+        </div>
+    </div>
+</div>
+
+

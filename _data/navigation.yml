@@ -1,0 +1,24 @@
+#Please use the main menu items under the "text"
+ - text: Home
+   url: /index
+ - text: Services
+   url: /services
+ - text: Portfolios
+   url: /portfolios
+   submenu:
+   - text: Portfolio One
+     url: /portfolio
+   - text: Portfolio Two
+     url: /portfolio-2
+   - text: Portfolio Three
+     url: /portfolio-3
+   - text: Portfolio Four
+     url: /portfolio-4
+   - text: Portfolio Five
+     url: /portfolio-5
+ - text: Blog
+   url: /blog
+ - text: Team
+   url: /team 
+ - text: Contact
+   url: /contact

@@ -1,0 +1,15 @@
+<section class="features-2 section section-ptb">
+  <div class="container">
+    <div class="row">
+     {% for feature in site.features %}
+      <div class="col-lg-3 col-sm-6 wow animated fadeInUp" data-wow-delay="0.2s">
+        {% if feature.icon %}
+         <img src="{{feature.icon}}" alt="{{feature.title}}"/>
+        {% endif %}
+        <h4>{{feature.title}}</h4>
+        <p>{{feature.excerpt | strip_html | truncate: 50}}</p>
+      </div>
+     {% endfor %}
+    </div>
+  </div>
+</section>
