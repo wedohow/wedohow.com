@@ -1,0 +1,12 @@
+{% if paginator.total_pages > 1 %}
+<nav class="page-navigation pagination">
+<ul class="list-unstyled m-0 p-0 d-flex justify-content-between w-100">
+    {% if paginator.previous_page %}
+    <li class="page-item"><a class="page-link btn dark" href="{{ paginator.previous_page_path | prepend: site.baseurl }}"><i class="lni lni-arrow-left mr-2"></i> Prev</a></li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="page-item"><a class="page-link btn dark" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next <i class="lni lni-arrow-right ml-2"></i></a></li> 
+    {% endif %}
+</ul>
+</nav>
+{% endif %}

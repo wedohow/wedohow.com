@@ -1,0 +1,24 @@
+<section class="portfolio-2 {% if include.extra_class %} {{include.extra_class}} {% endif %}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="title">Our Recent Work</h2>
+      </div>
+    </div>
+    <div class="row">
+      {% for portfolio in site.portfolios %}
+      <div class="col-lg-4 col-sm-6 image-filter custom-mb-4 {{portfolio.tags}}">
+        <div class="portfolio-item wow animated fadeInUp" data-wow-delay="0.2s">
+          {% if portfolio.post_image %}
+            <a href="{{portfolio.url}}"><img src="{{portfolio.post_image}}" alt="{{portfolio.title}}" class="img-fluid"/></a>
+          {% endif %}
+          <div class="info">
+            <h3><a href="{{portfolio.url}}">{{portfolio.title}}</a></h3>
+            <h6>{{portfolio.sub_title}}</h6>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

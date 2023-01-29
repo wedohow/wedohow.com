@@ -1,0 +1,37 @@
+<section class="spotlight-portfolio section {% if include.extra_class %} {{include.extra_class}} {% endif %}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="title">Our Recent Work</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 filterbox">
+        <ul>
+          <li>
+            <a class="buttons active" data-filter="all">ALL</a>
+            <a class="buttons" data-filter="WordPress">WordPress</a>
+            <a class="buttons" data-filter="Jekyll">Jekyll</a>
+            <a class="buttons" data-filter="HTML">HTML</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      {% for portfolio in site.portfolios %}
+      <div class="col-lg-4 col-md-6 items image-filter {{portfolio.tags}}">
+        {% if portfolio.post_image %}
+         <img src="{{portfolio.post_image}}" class="image img-fluid" alt="{{portfolio.title}}"/>
+        {% endif %}
+        <div class="overlay">
+          <div class="social">
+            <h3><a href="{{portfolio.url}}">{{portfolio.title}}</a></h3>
+            <p>{{portfolio.excerpt | strip_html | truncate: 200}}</p>
+            <h6><a href="{{portfolio.url}}">View Details</a></h6>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

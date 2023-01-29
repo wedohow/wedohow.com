@@ -1,42 +1,38 @@
-<header>
-  <div class="logo">
-    <a class="link" href="/">
-      hands on works <span class="logo-arrow ms-3">r</span>
-    </a>
-
-    <a class="logo-icon mt-4" href="/"><img src="/assets/images/logo.svg" /></a>
-  </div>
-
-  <nav>
-    <ul>
-      <li class="link"><a href="/what-we-do">What we do</a></li>
-      <li class="link-separator">/</li>
-      <li class="link"><a href="/us">Us</a></li>
-    </ul>
-
-    <div class="get-in-touch">
-      <a href="/get-in-touch">Get in touch</a>
+<div class="main-menu">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container">
+    <div class="navbar-brand">
+      <a id="pramuimge-logo" title="{{site.title}}" href="{{site.url}}"><img src="{{relative_url}}/assets/images/logo_white.png" alt="{{site.title}}"/></a>
     </div>
-  </nav>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-nav-1" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="main-nav-1">
+      <ul class="navbar-nav ml-auto">
+         {% for menu in site.data.navigation %}
+            {% if menu.submenu %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  {{menu.text}}
+                </a>
+                <div class="dropdown-menu">
+                  {% for submenu_item in menu.submenu %}
+                  {% if forloop.last %}
+                   <a class="dropdown-item" href="{{submenu_item.url}}">{{submenu_item.text}}</a>
+                   {% else %}
+                   <a class="dropdown-item" href="{{submenu_item.url}}">{{submenu_item.text}}</a>
+                   <div class="dropdown-divider"></div>
+                  {% endif %}
+                  {% endfor %}
+                </div>
+              </li>
+              {% else %}
+              <li class="nav-item"><a title="{{menu.text}}" href="{{menu.url}}" class="nav-link">{{menu.text}}</a></li>
+            {% endif %}
+         {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
 
-  <button class="hamb" onclick="toggleMenu(this)">
-    <div class="bar1"></div>
-    <div class="bar3"></div>
-  </button>
-</header>
-
-<script>
-  function toggleMenu(btn) {
-    btn.parentNode.classList.toggle("active");
-  }
-
-  const nav = document.querySelector("header > nav");
-
-  nav.addEventListener("transitionstart", (event) => {
-    nav.style.opacity = 1;
-  });
-
-  nav.addEventListener("transitionend", (event) => {
-    if (nav.clientHeight < 30) nav.style.opacity = 0;
-  });
-</script>
