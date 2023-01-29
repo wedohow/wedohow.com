@@ -93,8 +93,8 @@ visible: true
     </div>
   </div>
   <div class="row">
-  <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/web_inner.jpg" class="image img-fluid" alt="portfolio"/>
+    <div class="col-lg-6 col-sm-6 items">
+      <img src="/assets/images/build.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
     <div class="col-lg-6 col-sm-6 items content">
       <h3>Start building</h3>
@@ -107,7 +107,40 @@ visible: true
         <li>Introduction to React</li>
       </ul>
     </div>
-    
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-sm-6 items content">
+      <h3>Meet the world</h3>
+      <p>This final section includes advice to candidates for technical technical interviews, how to set up a resume, and the roles participants will be asked to take on in the future. It lasts 2 weeks and covers the following topics:</p>
+      <ul>
+        <li>Technincal interviewing</li>
+        <li>Technical orientation</li>
+        <li>Resume building</li>
+      </ul>
+    </div>
+    <div class="col-lg-6 col-sm-6 items">
+      <img src="/assets/images/world.jpg" class="image img-fluid" alt="portfolio"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-10 col-sm-6 items content">
+    <br><br><br>
+      <center>
+        <h3><i>This is all folks!</i></h3>
+      <br>
+      <p>
+        As can be seen from the above, our Web Developer Camp covers quite a lot. It is intensive, it is challenging, it is demanding.
+      </p>
+      <p>
+        But it is also <b>fun</b> and it will provide participants an unforgettable <b>real-world working experience</b>. 
+      </p>
+      
+
+      Last but not least: We can tailor our camp to your needs. <a href="/contact">Contact us</a> and learn more about availability, cost and whatever else comes to mind. 
+
+      </center>
+      
+    </div>
   </div>
 </div>
 </section>
