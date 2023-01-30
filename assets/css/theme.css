@@ -982,6 +982,7 @@ html {
 .contact{
 	padding: 0px;
 }
+
 .contact-form{
 	padding-bottom: 120px;
 	margin-top: -250px;
@@ -1007,6 +1008,10 @@ html {
 	border-radius: 0px;
 	padding: 25px 0px;
 	border-bottom: 1px solid #999;
+}
+.contact-2 {
+	padding-bottom: 25px;
+	padding-top: 50px;
 }
 .contact-2 .row{
 	padding: 0px;
