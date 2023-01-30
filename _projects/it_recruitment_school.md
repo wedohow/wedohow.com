@@ -117,3 +117,4 @@ visible: true
 
 </div>
 </section>
+{% include testimonials_itr.html %}
