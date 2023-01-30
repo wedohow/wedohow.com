@@ -104,8 +104,8 @@ body{
 	border:2px solid #212121;
 }
 .section-ptb {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 .section-ptb-2 {
 	padding-top: 100px;
@@ -551,6 +551,7 @@ body{
 	color: #000;
 	border-bottom: 2px solid #000;
 }
+
 .portfolio-2 .portfolio-item {
 	-webkit-box-shadow: 0px 0px 6px 0px rgba(92,90,92,0.1);
 	-moz-box-shadow: 0px 0px 6px 0px rgba(92,90,92,0.1);
@@ -1009,10 +1010,7 @@ html {
 	padding: 25px 0px;
 	border-bottom: 1px solid #999;
 }
-.contact-2 {
-	padding-bottom: 25px;
-	padding-top: 50px;
-}
+
 .contact-2 .row{
 	padding: 0px;
 	position: relative;
