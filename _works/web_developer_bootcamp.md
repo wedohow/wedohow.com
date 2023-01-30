@@ -48,7 +48,7 @@ visible: true
   </div>
  
   <div class="row">
-    <div class="col-lg-6 col-sm-6 items content">
+    <div class="col-lg-6 col-xs-12">
       <h3>Know your tools</h3>
       <p>In this module the participants will learn to work with three very important tools of every engineer. We refer to git, the terminal and the editor. The module has a duration of <b>5 sessions</b> with the following content:</p>
       <ul>
@@ -58,15 +58,15 @@ visible: true
         <li> 1 revision session with exercises and additional material</li>
       </ul>
     </div>
-     <div class="col-lg-6 col-sm-6 items">
+     <div class="d-none d-sm-block col-sm-6 col-lg-6">
       <img src="/assets/images/tools.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 col-sm-6 items">
+    <div class="d-none d-sm-block col-sm-6 col-lg-6">
       <img src="/assets/images/the_web.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
-    <div class="col-lg-6 col-sm-6 items content">
+    <div class="col-lg-6 col-xs-12">
       <h3>Know your environment</h3>
       <p>In this module, participants will be introduced to the Web, the <code>HTTP</code> protocol, Application Program Interfaces (APIs), Unix, and Databases, which together make up the environment for developing web applications. The module has <b>6 sessions</b> and lasts two weeks.</p>
       <ul>
@@ -79,7 +79,7 @@ visible: true
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 col-sm-6 items content">
+    <div class="col-lg-6 col-xs-12">
       <h3>Know your language</h3>
       <p>In this section we will focus on the <code>Javascript</code> programming language. The duration of the module is <b>2 weeks</b> and the best description we can give is that of an intensive crash course in the concepts of the language as well as a presentation of the <code>React</code> framework.</p>
       <ul>
@@ -88,15 +88,15 @@ visible: true
         <li>Introduction to React</li>
       </ul>
     </div>
-    <div class="col-lg-6 col-sm-6 items">
+    <div class="d-none d-sm-block col-sm-6 col-lg-6">
       <img src="/assets/images/web_inner.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 col-sm-6 items">
+    <div class="d-none d-sm-block col-sm-6 col-lg-6">
       <img src="/assets/images/build.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
-    <div class="col-lg-6 col-sm-6 items content">
+    <div class="col-sm-6 col-xs-12 col-lg-6">
       <h3>Start building</h3>
       <p>This is - in our humble opinion - <b>the most interesting section</b> of the Camp. This is where things are getting real. After all, we are <b>Hands On</b>!</p>
       <p>This section includes bringing a real web development project to life or fixing some bugs in an open source repository. The duration is approximately <b>4 weeks</b>.</p>
@@ -109,7 +109,7 @@ visible: true
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 col-sm-6 items content">
+    <div class="col-lg-6 col-sm-6 col-xs-12">
       <h3>Meet the world</h3>
       <p>This final section includes advice to candidates for technical technical interviews, how to set up a resume, and the roles participants will be asked to take on in the future. It lasts 2 weeks and covers the following topics:</p>
       <ul>
@@ -118,7 +118,7 @@ visible: true
         <li>Resume building</li>
       </ul>
     </div>
-    <div class="col-lg-6 col-sm-6 items">
+    <div class="d-none d-sm-block col-sm-6 col-lg-6">
       <img src="/assets/images/world.jpg" class="image img-fluid" alt="portfolio"/>
     </div>
   </div>

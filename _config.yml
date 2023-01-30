@@ -32,7 +32,7 @@ collections:
     output: true
   services:
     output: true
-  portfolios:
+  works:
     output: true
 
 ########################################################

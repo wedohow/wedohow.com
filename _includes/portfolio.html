@@ -18,16 +18,16 @@
       </div>
     </div>
     <div class="row">
-     {% for portfolio in site.portfolios %}
-       {% if portfolio.visible %}
-        <div class="col-lg-4 col-sm-6 custom-mb-4 image-filter {{portfolio.tags}}">
+     {% for work in site.works %}
+       {% if work.visible %}
+        <div class="col-lg-4 col-sm-6 custom-mb-4 image-filter {{work.tags}}">
           <div class="portfolio-item">
-            {% if portfolio.post_image %}
-             <a href="{{portfolio.url}}"><img src="{{portfolio.post_image}}" alt="{{portfolio.title}}" class="img-fluid"/></a>
+            {% if work.post_image %}
+             <a href="{{work.url}}"><img src="{{work.post_image}}" alt="{{work.title}}" class="img-fluid"/></a>
             {% endif %}
             <div class="info">
-              <h3><a href="{{portfolio.url}}">{{portfolio.title}}</a></h3>
-              <h6>{{portfolio.sub_title}}</h6>
+              <h3><a href="{{work.url}}">{{work.title}}</a></h3>
+              <h6>{{work.sub_title}}</h6>
             </div>
           </div>
         </div>
