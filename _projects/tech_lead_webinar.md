@@ -5,7 +5,7 @@ layout: portfolio
 post_image: "/assets/images/tech_lead.jpg"
 header_image: "/assets/images/tech_lead.jpg"
 tags: "training"
-visible: true
+visible: false
 ---
 
 <section class="spotlight-portfolio portfolio2">
