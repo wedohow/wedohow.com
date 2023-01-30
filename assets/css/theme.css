@@ -202,26 +202,26 @@ body{
 }
 .banner h1{
 	font-size: 53px;
-	color: #fff;
+	color: #000;
 }
 .banner p{
 	font-size: 18px;
-	color:#fff;
+	color:#000;
 	margin: 10px 0px 25px;
 }
 .banner .btn{
 	padding: 15px 40px;
 	margin-right: 20px;
 	background: transparent;
-	color: #fff;
-	border:2px solid #ffff;
+	color: #000;
+	border:2px solid #000;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: 600;
 }
 .banner .btn:hover{
-	background: #fff;
-	color: #000;
+	background: #000;
+	color: #fff;
 	transition: 0.5s;
 }
 .parralax{

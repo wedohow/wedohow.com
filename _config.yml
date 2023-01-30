@@ -11,7 +11,7 @@ github_username:  jekyll
 permalink: "/:title"
 
 # General Settings
-banner_image: "/assets/images/banner.jpg"
+# banner_image: "/assets/images/banner.jpg"
 
 environment: "production"
 
