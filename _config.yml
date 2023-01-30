@@ -32,7 +32,7 @@ collections:
     output: true
   services:
     output: true
-  works:
+  projects:
     output: true
 
 ########################################################

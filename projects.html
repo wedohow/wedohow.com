@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Projects"
+header_image: "/assets/images/banner_10.jpg"
+---
+
+{% include page_header.html %}
+
 <section class="portfolio-2 section {% if include.extra_class %}{{include.extra_class}} {% endif %}">
   <div class="container">
     <div class="row">
@@ -18,16 +26,16 @@
       </div>
     </div>
     <div class="row">
-     {% for work in site.works %}
-       {% if work.visible %}
-        <div class="col-lg-4 col-sm-6 custom-mb-4 image-filter {{work.tags}}">
+     {% for project in site.projects %}
+       {% if project.visible %}
+        <div class="col-lg-4 col-sm-6 custom-mb-4 image-filter {{project.tags}}">
           <div class="portfolio-item">
-            {% if work.post_image %}
-             <a href="{{work.url}}"><img src="{{work.post_image}}" alt="{{work.title}}" class="img-fluid"/></a>
+            {% if project.post_image %}
+             <a href="{{project.url}}"><img src="{{project.post_image}}" alt="{{project.title}}" class="img-fluid"/></a>
             {% endif %}
             <div class="info">
-              <h3><a href="{{work.url}}">{{work.title}}</a></h3>
-              <h6>{{work.sub_title}}</h6>
+              <h3><a href="{{project.url}}">{{project.title}}</a></h3>
+              <h6>{{project.sub_title}}</h6>
             </div>
           </div>
         </div>
