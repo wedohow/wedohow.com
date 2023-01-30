@@ -4,7 +4,7 @@ let
 in
   pkgs.mkShell {
     buildInputs = [
-      pkgs.ruby_3_1
+      pkgs.ruby_2_7
     ];
   }
 
