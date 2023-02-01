@@ -1,6 +1,6 @@
-# This repo hosts the code for the marketing website of HOW O.E.
-
 ## [wedohow.com](https://wedohow.com/)
+
+This repo hosts the code for the marketing website of HOW O.E.
 
 ### Development
 
