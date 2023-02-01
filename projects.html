@@ -12,18 +12,6 @@ header_image: "/assets/images/banner_10.jpg"
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12 filterbox">
-        <ul>
-          <li>
-            <a class="buttons active" data-filter="all">ALL</a>
-            <a class="buttons" data-filter="training">Training</a>
-            <a class="buttons" data-filter="development">Development</a>
-            <a class="buttons" data-filter="consulting">Consulting</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
      {% for project in site.projects %}
        {% if project.visible %}
         <div class="col-lg-4 col-sm-6 custom-mb-4 image-filter {{project.tags}}">
