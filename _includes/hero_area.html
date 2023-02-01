@@ -1,13 +1,31 @@
-<section class="holmes cover-container d-flex h-86.5 px-3 mx-auto flex-column">
-  <div class="container-fluid">
+<section class="banner" style="background-image:url({% if page.header_image %}{{page.header_image}}{% else %}{{site.banner_image}}{% endif %});">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="wow" data-wow-delay="1.0s">HOW</h1>
-        <h2 class="wow" data-wow-delay="0.5s">HANDS ON WORKS</h2>
-        
-        <span class="wow" data-wow-delay="1.5s">
-          <img src="{{relative_url}}/assets/images/holmes-slider.png" alt="holmes-slider" class="img-fluid">
-        </span>
+      <div class="col-lg-6 col-sm-8">
+        <h1>We do</h1>
+        <h1>Hands On Works</h1>
+
+        <p>
+          We help startup companies understand, prototype and deploy whatever
+          they can think of.
+        </p>
+
+        <p>
+          We build and train the team, transfer knowledge and set
+          a non-competitive culture.
+        </p>
+
+        <p>
+          If you like cut-throat environments, please move on to the next
+          consulting agency. We do not.
+        </p>
+
+        <center>
+          <a href="/contact" class="btn btn-lg">Ready for your next project?</a>
+        </center>
+      </div>
+      <div class="col-lg-6 col-sm-4">
+        <img src="{{relative_url}}/assets/images/good.jpg" alt="{{page.title}}" class="feature img-fluid"/>
       </div>
     </div>
   </div>
