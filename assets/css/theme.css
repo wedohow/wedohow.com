@@ -313,6 +313,7 @@ body{
 	padding:40px;
 	border: 1px dashed #999;
 	border-radius: 10px;
+	min-height: 300px;
 }
 .service .item h4{
 	margin: 20px 0px 15px;
