@@ -30,8 +30,6 @@ cover_image: "/assets/img/bg/page-title.jpg"
 collections:
   features:
     output: true
-  services:
-    output: true
   projects:
     output: true
 
