@@ -5,8 +5,8 @@
    url: /services
  - text: Projects
    url: /projects
- - text: Blog
-   url: /blog
+ #- text: Blog
+  # url: /blog
  - text: Team
    url: /team 
  - text: Contact
