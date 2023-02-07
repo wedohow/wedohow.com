@@ -695,6 +695,7 @@ body{
 }
 .blog-default article .content{
 	padding: 20px 30px;
+	line-height: 35px;
 }
 .blog-default article h3{
 	margin: 10px 0px;
@@ -717,6 +718,7 @@ body{
 	margin: 10px 0px 25px;
 }
 
+.blog-default .lh-35 {  }
 .sidebar .widget{
 	margin-bottom: 40px;
 	padding: 30px 25px 10px;

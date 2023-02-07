@@ -1,12 +1,10 @@
 #Please use the main menu items under the "text"
  - text: Home
    url: /index
- - text: Services
-   url: /services
  - text: Projects
    url: /projects
- #- text: Blog
-  # url: /blog
+ - text: Blog
+   url: /blog
  - text: Team
    url: /team 
  - text: Contact
