@@ -1,10 +1,8 @@
 ---
 layout: default
-header_image: "/assets/images/banner_07.jpg"
-pagination: true
-enabled: true
-title: "Blog"
-permalink: "/blog/"
+pagination:
+  enabled: true
+title: "HOW | Blog"
 ---
 
 {% include page_header.html %}
@@ -12,8 +10,18 @@ permalink: "/blog/"
 <div class="blog-default section-ptb">
     <div class="container">
         <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="title">The HOW Blog</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <p>Short or long stories, illustrating thoughts and experiences from our journey in engineering, web development and management. </p>
+            </div>
+        </div>
+        <div class="row">
             <!-- Blogs -->
-            <div class="col-lg-8">
+            <div class="col-lg-8 mx-auto">
                 <div class="blogs-wrapper">
                     {% for post in paginator.posts %}
                     <article class="mb-5">
@@ -41,10 +49,6 @@ permalink: "/blog/"
                     {% endfor %}
                     {% include pagination.html %}
                 </div>
-            </div>
-            <!-- Sidebar -->
-            <div class="col-lg-4">
-                {% include sidebar.html %}
             </div>
         </div>
     </div>
