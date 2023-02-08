@@ -16,6 +16,6 @@ In-person training also provides opportunities for hands-on learning experiences
 
 Finally, in-person training can help to build relationships and foster a sense of community among employees. By participating in the learning process together, employees can learn from one another and build a network of support. This sense of community can help to promote collaboration and teamwork, and can lead to a more positive and productive work environment.
 
-In conclusion, at HOW, we believe that in-person training is the key to effective IT corporate education. By providing personalized attention, promoting collaborative learning, offering hands-on experiences, and fostering a sense of community, we ensure that employees receive the best possible education and are equipped with the skills and knowledge they need to succeed.
+In conclusion, at HOW, we believe that in-person training is the key to effective IT corporate education. By providing personalized attention, promoting collaborative learning, offering hands-on experiences, and fostering a sense of community, we ensure that employees receive the best possible education and are equipped with the skills and knowledge they need to succeed. Be sure to check out our <a href="/projects/it-recruitment-school">IT Recruitment School</a> and our <a href="/projects/web-developer-bootcamp">Web Developer Camp</a>. Both these programs focus on Hands On Work and stay away from theoretical concepts and boring lectures. Or at least we hope so. 
 
 
