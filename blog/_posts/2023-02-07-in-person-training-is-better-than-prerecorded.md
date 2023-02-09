@@ -5,6 +5,7 @@ date:   2023-02-07
 categories: [training]
 author: Dimitris Kotsakos
 post_image: "/assets/images/blog/classroom.jpg"
+image: "/assets/images/blog/classroom.jpg"
 ---
 
 When it comes to IT corporate training, it's crucial to ensure that employees receive the best possible education. The future of a company depends on the skills and knowledge of its employees, and the right training can make a significant difference in terms of productivity and success. This is why at HOW, we believe in in-person training instead of pre-recorded videos. Mind you, in-person does not mean on-site. In-person in the post-covid era has transformed to virtual and distributed. You can have access to the same training quality from the comfort of your couch at home. 
