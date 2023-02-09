@@ -5,6 +5,7 @@ layout: portfolio
 post_image: "/assets/images/teach.jpg"
 header_image: "/assets/images/banner_14.jpg"
 tags: "training"
+description: "A series of personalized, live, online lectures on IT and IT Recruitment for participants of all levels and disciplines. The goal is to understand the philosophy and needs of IT professionals, as well as learn the most appropriate way to approach them."
 visible: true
 ---
 
