@@ -32,4 +32,6 @@ Finally, in-person training can help to build relationships and foster a sense o
 
 In conclusion, at HOW, we believe that in-person training is the key to effective IT corporate education. By providing personalized attention, promoting collaborative learning, offering hands-on experiences, and fostering a sense of community, we ensure that employees receive the best possible education and are equipped with the skills and knowledge they need to succeed. Be sure to check out our <a href="/projects/it-recruitment-school">IT Recruitment School</a> and our <a href="/projects/web-developer-bootcamp">Web Developer Camp</a>. Both these programs focus on Hands On Work and stay away from theoretical concepts and boring lectures. Or at least we hope so. 
 
+<small>Photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kenny Eliason</a> on <a href="https://unsplash.com/photos/1-aA2Fadydc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
+
 
