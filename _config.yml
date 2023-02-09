@@ -22,6 +22,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-seo-tag
 
 cover_image: "/assets/img/bg/page-title.jpg"
 

@@ -263,6 +263,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed (~> 0.12)
   jekyll-paginate
+  jekyll-seo-tag
   jekyll-tagging
   minima (~> 2.5)
   tzinfo (~> 1.2)

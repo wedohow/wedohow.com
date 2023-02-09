@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!--
+  Blog Area Start
+/ -->
+<div class="blog-default section-ptb">
+  <div class="container">
+    <div class="row">
+      <!-- Blogs -->
+      <div class="col-lg-8 mx-auto .lh-35">  
+        <article>        
+          <div class="content">
+            <h3>{{page.title}}</h3>
+            <div class="row custom-mb-4">
+              {% if page.date %}
+              <div class="col">
+                <span class="date"><i class="lni lni-calendar"></i> {{page.date | date_to_long_string}}</span>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </article>
+      </div> 
+    </div>
+  </div>
+</div>
+<!--
+  Blog Area End
+/ -->
