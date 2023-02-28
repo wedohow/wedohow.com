@@ -1,11 +1,11 @@
 ---
-title: "Tech Lead Webinar"
+title: "Tech Lead: Part 1"
 sub_title: "Training"
 layout: portfolio
 post_image: "/assets/images/tech_lead.jpg"
 header_image: "/assets/images/tech_lead.jpg"
 tags: "training"
-visible: false
+visible: true
 ---
 
 <section class="spotlight-portfolio portfolio2">
@@ -16,123 +16,13 @@ visible: false
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/tech_lead_inner.jpg" class="image img-fluid" alt="portfolio"/>
-    </div>
-    <div class="col-lg-6 col-sm-6 items content">
-      <h3><a href="#">Responsive Website</a></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-      <table class="table">
-        <tr>
-          <th>Client:</th>
-          <td>Jhon Smith</td>
-        </tr>
-        <tr>
-          <th>Project Type:</th>
-          <td>Freelance</td>
-        </tr>
-        <tr>
-          <th>Start Date:</th>
-          <td>26 January 2020</td>
-        </tr>
-        <tr>
-          <th>End Date:</th>
-          <td>06 May 2020</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-sm-6 items content">
-      <h3><a href="#">Responsive Website</a></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-      <table class="table">
-        <tr>
-          <th>Client:</th>
-          <td>Jhon Smith</td>
-        </tr>
-        <tr>
-          <th>Project Type:</th>
-          <td>Freelance</td>
-        </tr>
-        <tr>
-          <th>Start Date:</th>
-          <td>26 January 2020</td>
-        </tr>
-        <tr>
-          <th>End Date:</th>
-          <td>06 May 2020</td>
-        </tr>
-      </table>
-    </div>
-    <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/portfolio2.jpg" class="image img-fluid" alt="portfolio"/>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/portfolio3.jpg" class="image img-fluid" alt="portfolio"/>
-    </div>
-    <div class="col-lg-6 col-sm-6 items content">
-      <h3><a href="#">Responsive Website</a></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-      <table class="table">
-        <tr>
-          <th>Client:</th>
-          <td>Jhon Smith</td>
-        </tr>
-        <tr>
-          <th>Project Type:</th>
-          <td>Freelance</td>
-        </tr>
-        <tr>
-          <th>Start Date:</th>
-          <td>26 January 2020</td>
-        </tr>
-        <tr>
-          <th>End Date:</th>
-          <td>06 May 2020</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-6 col-sm-6 items content">
-      <h3><a href="#">Responsive Website</a></h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
-      <table class="table">
-        <tr>
-          <th>Client:</th>
-          <td>Jhon Smith</td>
-        </tr>
-        <tr>
-          <th>Project Type:</th>
-          <td>Freelance</td>
-        </tr>
-        <tr>
-          <th>Start Date:</th>
-          <td>26 January 2020</td>
-        </tr>
-        <tr>
-          <th>End Date:</th>
-          <td>06 May 2020</td>
-        </tr>
-      </table>
-    </div>
-    <div class="col-lg-6 col-sm-6 items">
-      <img src="/assets/images/portfolio4.jpg" class="image img-fluid" alt="portfolio"/>
+    <div class="col-lg-10 col-sm-6 items content">
+      <p>This webinar is the first part of our series of sessions that aims to provide current and aspiring Tech Leads with a comprehensive understanding of engineering management.</p>
+      <h3><a href="#">Engineering Hiring</a></h3>
+      <p>Our first webinar is a comprehensive session aimed at equipping attendees with practical skills to make informed hiring decisions.</p>
+      <p>The session will cover various aspects of the hiring process, from <b>sourcing candidates</b> to <b>interviewing</b>. Attendees will learn how to craft job descriptions that accurately reflect the job requirements and attract the right talent. The webinar will also delve into best practices for conducting interviews and assessing candidates' technical abilities. Moreover, the session will discuss ways to evaluate cultural fit and ensure diversity and inclusivity in the hiring process.</p>
+      
+      <p>By attending this webinar, participants will gain valuable insights and practical tips to streamline their hiring process, attract top talent, and build high-performing engineering teams.</p>
     </div>
   </div>
 </div>
