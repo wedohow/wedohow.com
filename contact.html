@@ -3,8 +3,6 @@ layout: default
 title: "Contact us"
 ---
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
 <!--
   Contact Start
 / -->
@@ -24,7 +22,7 @@ title: "Contact us"
         </div>
       </div>
       <div class="col-lg-7 col-sm-7">
-        <form action="https://formsubmit.io/send/{{site.email}}">
+        <form action="https://formsubmit.co/{{site.email}}" method="POST">
           <div class="row form">
             <div class="col-lg-6 col-sm-6">
               <input
@@ -79,10 +77,6 @@ title: "Contact us"
 
               <button class="btn btn-lg dark" type="submit">Send</button>
 
-              <br/>
-              <br/>
-
-              <div class="g-recaptcha" data-sitekey="6Ld6hgoAAAAAAEOsFOT9uaRzlhARhQBZJAcf0Dt4"></div>
             </div>
           </div>
         </form>
