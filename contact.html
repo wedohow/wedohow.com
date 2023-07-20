@@ -62,6 +62,11 @@ title: "Contact us"
               />
             </div>
 
+            <input type="hidden" name="_captcha">
+
+            <input type="text" name="_honey" style="display:none">
+
+            <input type="hidden" name="_blacklist" value="about your price">
 
             <div class="col-lg-12">
               <textarea
@@ -72,10 +77,12 @@ title: "Contact us"
                 required
               ></textarea>
 
-              <div class="g-recaptcha" data-sitekey="6Ld6hgoAAAAAAEOsFOT9uaRzlhARhQBZJAcf0Dt4"></div>
-              <br />
-
               <button class="btn btn-lg dark" type="submit">Send</button>
+
+              <br/>
+              <br/>
+
+              <div class="g-recaptcha" data-sitekey="6Ld6hgoAAAAAAEOsFOT9uaRzlhARhQBZJAcf0Dt4"></div>
             </div>
           </div>
         </form>
