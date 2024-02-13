@@ -4,24 +4,24 @@ title: "Projects"
 header_image: "/assets/images/banner_10.jpg"
 ---
 
-<section class="portfolio-2 section-ptb {% if include.extra_class %}{{include.extra_class}} {% endif %}">
-  <div class="container">
+<section class="section-ptb">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="title">Our Work</h2>
+        <h2>Portfolio</h2>
       </div>
     </div>
+
     <div class="row">
      {% for project in site.projects %}
        {% if project.visible %}
-        <div class="col-lg-4 col-sm-6 custom-mb-4 image-filter {{project.tags}}">
+        <div class="col-lg-6 col-sm-6 custom-mb-4 image-filter {{project.tags}}">
           <div class="portfolio-item">
             {% if project.post_image %}
              <a href="{{project.url}}"><img src="{{project.post_image}}" alt="{{project.title}}" class="img-fluid"/></a>
             {% endif %}
             <div class="info">
-              <h3><a href="{{project.url}}">{{project.title}}</a></h3>
-              <h6>{{project.sub_title}}</h6>
+              <a href="{{project.url}}">{{project.title}}</a>
             </div>
           </div>
         </div>

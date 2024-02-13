@@ -4,7 +4,6 @@ title:  "Discover the Magic of Data: 5 Books to Empower Non-Techies with Data Sc
 date:   2023-04-21
 categories: [training]
 author: Dimitris Kotsakos
-post_image: "/assets/images/blog/datascience.jpg"
 image: "/assets/images/blog/datascience.jpg"
 description: "Five books about data science that can help non-tech people step into this exciting field"
 ---
@@ -34,9 +33,5 @@ This book is a great introduction to statistics for non-technical people. It cov
 <strong>"Dataclysm: Who We Are (When We Think No One's Looking)"</strong> by Christian Rudder
 
 This book is a fascinating look at how big data is changing the way we understand human behaviour. It uses data from social media sites and online dating services to explore topics such as race, gender, and sexual orientation. It is a great read for anyone interested in the social implications of data science.
-
-
-<small>Photo by <a href="https://www.pexels.com/photo/woman-programming-on-a-notebook-1181359/">Christina Morillo</a></small>
-
 
 

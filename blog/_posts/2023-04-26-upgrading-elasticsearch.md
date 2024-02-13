@@ -4,7 +4,6 @@ title:  "Upgrading Elasticsearch: Best Migration Strategies with their pros and 
 date:   2023-04-26
 categories: [training]
 author: Dimitris Kotsakos
-post_image: "/assets/images/blog/search.jpg"
 image: "/assets/images/blog/search.jpg"
 description: "Explore the different migration strategies for upgrading Elasticsearch, along with their pros and cons!"
 ---
@@ -130,5 +129,3 @@ The blue-green deployment strategy involves setting up a new Elasticsearch clust
 Ultimately, the migration strategy you choose depends on the size and complexity of your Elasticsearch cluster, your downtime requirements, and your tolerance for risk. While the in-place upgrade strategy may be the quickest and simplest, it may not be suitable for all environments. Similarly, while the blue-green deployment strategy may provide the most flexibility and safety, it may require additional time and resources to set up. By understanding the pros and cons of each migration strategy, you can make an informed decision that best fits your needs.
 
 In conclusion, upgrading Elasticsearch can be a complex process, but it is essential to keep your Elasticsearch cluster up-to-date to take advantage of the latest features and improvements. Before upgrading, be sure to check the <a href="https://www.elastic.co/support/matrix" target="_blank">compatibility matrix</a>, test the upgrade in a non-production environment, and choose the migration strategy that best fits your environment.
-
-<small>Photo by <a href="https://unsplash.com/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Winkler</a> on <a href="https://unsplash.com/photos/afW1hht0NSs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>

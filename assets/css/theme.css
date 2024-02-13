@@ -33,6 +33,9 @@ Author: Tortoiz
 /* -------------
 #Global
 ------------- */
+.container-fluid {
+	max-width: 900px;
+}
 textarea:focus, input:focus{
     outline: none !important;
 }
@@ -47,29 +50,38 @@ outline: none;
 box-shadow:none !important;
 }
 h1, h2, h3, h4, h5{
-	font-family: 'Montserrat', sans-serif;
+	font-family: monospace;
 	color: #212121;
-	font-weight: 600;
+	font-weight: 300;
 }
 h6{
-	font-family: 'Montserrat', sans-serif;
+	font-family: monospace;
 	color: #212121;
 	margin-bottom: 15px;
 	text-transform: uppercase;
 }
 h2{
-	font-size: 40px;
+	font-size: 30px;
 	margin-bottom: 30px;
 }
 a{
 	color: #212121;
+	font-family: monospace;
+}
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: underline;
 }
 a:hover{
 	text-decoration: none;
 	color: #000;
 }
 .btn{
-	
+	border-radius: 0;
+	text-decoration: none;
 }
 .btn:hover{
 	
@@ -78,13 +90,18 @@ a:hover{
 	
 }
 body{
-	font-family: 'Poppins', sans-serif;
-	font-size: 16px;
+	font-family: monospace;
+	font-size: 14.4px;
 	color: #4a4a4a;
+	background: #e2d9d0;
 }
+
 .title{
-	font-size: 50px;
+	font-family: monospace;
+	font-weight: 100;
+	font-size: 28px;
 }
+
 .subtitle{
 	font-size: 25px;
 	color: #777;
@@ -104,7 +121,7 @@ body{
 	border:2px solid #212121;
 }
 .section-ptb {
-	padding-top: 25px;
+	padding-top: 100px;
 	padding-bottom: 25px;
 }
 .section-ptb-2 {
@@ -147,7 +164,7 @@ body{
 	margin-top: 40px;
 }
 .bg-semi-white {
-	background-color: #F8F8F8;
+	background-color: #E2d9d0;
 }
 /* -------------
 #Header
@@ -160,10 +177,15 @@ body{
 	padding-bottom: 10px;
 }
 .navbar-expand-md .navbar-nav .nav-link{
+	text-decoration: none;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-size: 16px;
-	text-transform: uppercase;
+	font-size: 14.4px;
+	font-family: monospace;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+	text-decoration: underline;
+	color: rgba(255,255,255,.5);
 }
 .navbar-dark .navbar-brand{
 	padding: 1px 0px;
@@ -201,11 +223,11 @@ body{
     align-items: center;
 }
 .banner h1{
-	font-size: 53px;
+	font-size: 35px;
 	color: #000;
 }
 .banner p{
-	font-size: 18px;
+	font-size: 14.4px;
 	color:#000;
 	margin: 10px 0px 25px;
 }
@@ -246,7 +268,7 @@ body{
 	background-image: url(../images/hl-bg.jpg);
 }
 .holmes h2{
-	font-size: 40px;
+	font-size: 30px;
 	margin: 30px 0px 10px;
 	color: #999;
 }
@@ -309,14 +331,10 @@ body{
 /* -------------
 #Sevice
 ------------- */
-.service .item{
-	padding:40px;
-	border: 1px dashed #999;
-	border-radius: 10px;
-	min-height: 300px;
+.service .row{
 }
 .service .item h4{
-	margin: 20px 0px 15px;
+	margin: 0px 0px 15px;
 }
 .service .item p{
 	font-size: 14px;
@@ -325,11 +343,15 @@ body{
 	margin: 10px 0px;
 	padding: 10px 25px;
 	font-size: 14px;
-	background: #f2f2f2;
+	background: #e2d9d0;
 	border: 0px;
 }
 .service .item .btn.dark:hover{
 	background: #000;
+}
+
+.service hr {
+	margin: 24px 0px;
 }
 /* -------------
 #Client
@@ -634,8 +656,7 @@ body{
      font-size: 18px;
     font-weight: 600;
     margin: 0px 0px 8px;
-    font-style: italic;
-    font-family: "Montserrat";
+    font-family: monospace;
 }
 .testimonial .item span.icon{
 	height: 80px;
@@ -680,12 +701,22 @@ body{
 /* -------------
 #blog
 ------------- */
-.blog-default article{
-	-webkit-box-shadow: 0px 0px 6px 0px rgba(92,90,92,0.2);
-	-moz-box-shadow: 0px 0px 6px 0px rgba(92,90,92,0.2);
-	box-shadow: 0px 0px 6px 0px rgba(92,90,92,0.2);
-	border-radius: 15px;
+.blog-default p{
+	font-family: monospace;
+	color: #212121;
+	font-weight: 300;
 }
+.blog-default h2{
+	font-family: monospace;
+	color: #212121;
+	font-weight: 300;
+}
+
+.blog-default article{
+	
+	font-family: monospace;
+}
+
 .blog-default article img{
 	margin: 10px 0px 20px;
 }
@@ -702,6 +733,11 @@ body{
 }
 .blog-default article h3 a{
 	color: #212121;
+	text-decoration: none;
+}
+.blog-default article h3 a:hover{
+	color: #212121;
+	text-decoration: underline;
 }
 .blog-default article blockquote{
 	background: #f2f2f2;
@@ -1052,13 +1088,17 @@ html {
 ------------- */
 .spotlight-footer{
 	background: #212121;
-	text-align: center;
 	padding: 100px 0px 80px;
 	color: #fbfbfb;
   margin-top: 33px;
+	font-size: 14.4px;
+	font-family: monospace;
 }
 .spotlight-footer img{
 	margin-bottom: 20px
+}
+.spotlight-footer a{
+	color: #fbfbfb;
 }
 /*----------------
 # Responsive
@@ -1098,7 +1138,7 @@ html {
 		min-height: 30vh;
 	}
 	.banner h1{
-		font-size: 50px;
+		font-size: 35px;
 		margin-top: 40px;
 	}
 	.banner p{
@@ -1331,6 +1371,7 @@ html {
 }
 .blog-share-icon a {
 	padding-right: 5px;
+	text-decoration: none;
 }
 .blog-share-icon a:last-child {
 	padding-right: 0;
