@@ -214,6 +214,8 @@ body{
 	background-image: url(../images/bg.jpg);
 	background-position: center;
 	background-size: cover;
+	max-height: 600px;
+
 }
 .banner .row{
 	min-height: 87vh;
@@ -224,19 +226,20 @@ body{
 }
 .banner h1{
 	font-size: 35px;
-	color: #000;
+	color: #e2d9d0;
+	text-align: left;
 }
 .banner p{
 	font-size: 14.4px;
-	color:#000;
+	color:#e2d9d0;
 	margin: 10px 0px 25px;
 }
 .banner .btn{
 	padding: 15px 40px;
 	margin-right: 20px;
 	background: transparent;
-	color: #000;
-	border:2px solid #000;
+	color: #e2d9d0;
+	border:2px solid #e2d9d0;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: 600;
@@ -595,6 +598,12 @@ body{
 }
 .portfolio-2 .portfolio-item .info h3{
 	font-size: 25px;
+}
+.portfolio-item img{
+	filter: grayscale(100%);
+}
+.portfolio-item img:hover{
+	filter: none;
 }
 /* -------------
 #About Page

@@ -23,7 +23,7 @@ plugins:
   - jekyll-seo-tag
 
 cover_image: "/assets/img/bg/page-title.jpg"
-
+banner_image: "/assets/images/hero.jpg"
 
 #collections
 collections:
