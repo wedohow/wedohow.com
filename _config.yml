@@ -3,7 +3,7 @@ email: "hello@wedohow.com"
 description: >- 
   At HOW, we defy convention – not your typical company, consulting agency, or software studio. We're a fusion of them all, infused with crazy energy and an unwavering commitment to getting things done.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wedohow.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://howstudio.dev" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: "/:title"
