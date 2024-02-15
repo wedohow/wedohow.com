@@ -249,7 +249,6 @@ body{
 	color: #fff;
 	transition: 0.5s;
 }
-
 .index-container-2 {
 	font-size: 25px;
 	color: #212121;
@@ -1275,7 +1274,7 @@ html {
 
 
 /* Mobile */
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 992px) {
 	.title{
 		font-size: 35px;
 	}
@@ -1303,6 +1302,15 @@ html {
 		padding: 5px 20px;
 		margin-right: 0px;
 		font-size: 16px;
+	}
+	.banner .intro-text {
+		background-color: rgba(226, 217, 208, 0.75);
+	}
+	.banner .intro-text h1 {
+		color: #212121;
+	}
+	.banner .intro-text p {
+		color: #212121;
 	}
 	.about img{
 		margin-top: 50px;
