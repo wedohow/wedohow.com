@@ -459,6 +459,9 @@ body{
   background-color: rgba(0,0,0,0.5);
 }
 
+.teams img {
+	max-height: 300px;
+}
 .team .teams:hover .overlay {
   opacity: 1;
 }
